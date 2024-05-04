@@ -10,7 +10,7 @@ export const Conteiner = styled.View`
 
 export const Text = styled.Text`
     color: black;
-    font-size: larger;
+    font-size: 18px;
 `;
 
 

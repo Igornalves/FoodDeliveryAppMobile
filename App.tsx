@@ -1,10 +1,15 @@
 import React from 'react';
-import { MainPage } from './src/pages/mainPage/intex';
+import { StatusBar } from 'react-native'
+import { NavigationContainer } from '@react-navigation/native';
+import { AppRoutes } from './src/routes/app.routes';
 
 export default function App() {
   return (
     <>
-        <MainPage/>
+      <NavigationContainer>
+        <AppRoutes/>
+      </NavigationContainer>
+      <StatusBar barStyle='default' />
     </>
   );
 }
