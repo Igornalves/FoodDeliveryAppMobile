@@ -1,15 +1,13 @@
 import React from 'react';
 import { 
     Conteiner,
-    Text
+    Text,
 } from './style';
 
-
-
-export function MainPage() {
+export function Setting() {
   return (
     <Conteiner>
-       <Text> ola yasmin</Text>
+       <Text> Ola Yasmin ! ! !</Text>
     </Conteiner>
   );
 }

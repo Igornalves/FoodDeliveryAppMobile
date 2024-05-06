@@ -1,8 +1,10 @@
 import React from "react";
-import { Platform } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons'
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
+import Ionicons from '@expo/vector-icons/Ionicons'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { MainPage } from "../pages/mainPage/intex";
+import DrawerRoutes from "./drawer.routes";
+
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -10,17 +12,25 @@ export function AppRoutes() {
     return(
         <Navigator screenOptions={{
             headerShown: false,
-            tabBarLabelPosition: 'beside-icon',
-            // tabBarActiveTintColor: ,
-            // tabBarInactiveTintColor: ,
+            tabBarLabelPosition: 'below-icon',
+            tabBarActiveTintColor: '#3288F4',
+            // tabBarInactiveTintColor: 'white',
             tabBarStyle: {
-                height: 65,
-                paddingVertical: Platform.OS === 'ios' ? 20 : 0,
+                height: 73,
+                position: 'absolute',
+                borderTopWidth: 0,
+                backgroundColor: '#000000',
+                paddingTop: 10,
+                paddingBottom: 15,
+                borderRadius: 30,
+                bottom: 22,
+                left: 10,
+                right: 10,          
             }
         }}>
             <Screen 
-                name="Home"
-                component={MainPage}
+                name="Settings"
+                component={DrawerRoutes}
                 options={{
                     tabBarIcon: (({size,color})=>
                         <MaterialIcons
@@ -32,12 +42,12 @@ export function AppRoutes() {
                 }}
             />
             <Screen 
-                name="Home"
-                component={MainPage}
+                name="Browse"
+                component={DrawerRoutes}
                 options={{
                     tabBarIcon: (({size,color})=>
-                        <MaterialIcons
-                            name="home"
+                        <MaterialCommunityIcons
+                            name='text-box-search-outline'
                             size={size}
                             color={color}
                         />
@@ -45,12 +55,12 @@ export function AppRoutes() {
                 }}
             />
             <Screen 
-                name="Home"
-                component={MainPage}
+                name="Carts"
+                component={DrawerRoutes}
                 options={{
                     tabBarIcon: (({size,color})=>
-                        <MaterialIcons
-                            name="home"
+                        <Ionicons
+                            name='cart-outline'
                             size={size}
                             color={color}
                         />
@@ -58,12 +68,12 @@ export function AppRoutes() {
                 }}
             />
             <Screen 
-                name="Home"
-                component={MainPage}
+                name="Orders"
+                component={DrawerRoutes}
                 options={{
                     tabBarIcon: (({size,color})=>
-                        <MaterialIcons
-                            name="home"
+                        <MaterialCommunityIcons
+                            name='text-box-outline'
                             size={size}
                             color={color}
                         />
@@ -71,16 +81,17 @@ export function AppRoutes() {
                 }}
             />
             <Screen 
-                name="Home"
-                component={MainPage}
+                name="Account"
+                component={DrawerRoutes}
                 options={{
                     tabBarIcon: (({size,color})=>
-                        <MaterialIcons
-                            name="home"
+                        <MaterialCommunityIcons
+                            name='account-outline'
                             size={size}
                             color={color}
                         />
                     ),
+                    
                 }}
             />
         </Navigator>

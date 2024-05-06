@@ -1,14 +1,12 @@
 import React from 'react';
+import 'react-native-gesture-handler';
 import { StatusBar } from 'react-native'
-import { NavigationContainer } from '@react-navigation/native';
-import { AppRoutes } from './src/routes/app.routes';
+import { Routes } from './src/routes/intex';
 
 export default function App() {
   return (
     <>
-      <NavigationContainer>
-        <AppRoutes/>
-      </NavigationContainer>
+      <Routes/>
       <StatusBar barStyle='default' />
     </>
   );

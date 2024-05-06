@@ -5,13 +5,15 @@ export const Conteiner = styled.View`
     height: 100%;
     align-items:center;
     justify-content: center;
-
+    background-color: red;
 `;
 
 export const Text = styled.Text`
-    color: black;
+    color: wheat;
     font-size: 18px;
 `;
+
+
 
 
 
