@@ -7,17 +7,19 @@ import { Feather } from '@expo/vector-icons'
 
 import Stack from './stack.routes'
 import { TabRoutes } from './tab.routes'
-import { User } from '../Components/User/Intex';
+import { Slidebar } from '../pages/Slidebar/intex';
 
 const Drawer = createDrawerNavigator();
 
 export default function DrawerRoutes(){
     return(
         <Drawer.Navigator 
-        drawerContent={props => <User {...props}/>}
+        drawerContent={props => <Slidebar {...props}/>}
         screenOptions={{
             title: '',
-        }}>
+            
+        }}
+        >
             <Drawer.Screen
                 name='settings-native'
                 component={TabRoutes}
