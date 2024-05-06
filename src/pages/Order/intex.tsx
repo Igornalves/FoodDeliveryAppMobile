@@ -1,10 +1,13 @@
 import React from 'react';
-import { Conteiner } from './style';
+import { 
+  Conteiner,
+  Text
+} from './style';
 
 export function Order() {
   return (
     <Conteiner>
-       
+      <Text> Ola Yasmin ! ! !</Text>
     </Conteiner>
   );
 }

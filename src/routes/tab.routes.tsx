@@ -3,12 +3,16 @@ import { MaterialIcons } from '@expo/vector-icons'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import DrawerRoutes from "./drawer.routes";
+import { Setting } from "../pages/Setting/intex";
+import { Browse } from "../pages/Browse/intex";
+import { Cart } from "../pages/Cart/intex";
+import { Order } from "../pages/Order/intex";
+import { Account } from "../pages/Account/intex";
 
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
-export function AppRoutes() {
+export function TabRoutes() {
     return(
         <Navigator screenOptions={{
             headerShown: false,
@@ -30,7 +34,7 @@ export function AppRoutes() {
         }}>
             <Screen 
                 name="Settings"
-                component={DrawerRoutes}
+                component={Setting}
                 options={{
                     tabBarIcon: (({size,color})=>
                         <MaterialIcons
@@ -43,7 +47,7 @@ export function AppRoutes() {
             />
             <Screen 
                 name="Browse"
-                component={DrawerRoutes}
+                component={Browse}
                 options={{
                     tabBarIcon: (({size,color})=>
                         <MaterialCommunityIcons
@@ -56,7 +60,7 @@ export function AppRoutes() {
             />
             <Screen 
                 name="Carts"
-                component={DrawerRoutes}
+                component={Cart}
                 options={{
                     tabBarIcon: (({size,color})=>
                         <Ionicons
@@ -69,7 +73,7 @@ export function AppRoutes() {
             />
             <Screen 
                 name="Orders"
-                component={DrawerRoutes}
+                component={Order}
                 options={{
                     tabBarIcon: (({size,color})=>
                         <MaterialCommunityIcons
@@ -82,7 +86,7 @@ export function AppRoutes() {
             />
             <Screen 
                 name="Account"
-                component={DrawerRoutes}
+                component={Account}
                 options={{
                     tabBarIcon: (({size,color})=>
                         <MaterialCommunityIcons

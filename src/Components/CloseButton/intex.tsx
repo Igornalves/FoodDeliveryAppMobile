@@ -1,13 +1,13 @@
 import React from 'react';
 import { 
-  Conteiner,
-  Text 
+    Conteiner,
+    ButtonClose
 } from './style';
 
-export function Account() {
+export function CloseButton() {
   return (
     <Conteiner>
-      <Text> Ola Yasmin ! ! !</Text>
+       <ButtonClose name={''}/>
     </Conteiner>
   );
 }
