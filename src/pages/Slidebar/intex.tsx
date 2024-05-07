@@ -1,6 +1,6 @@
 import React from 'react';
 import { ConteinerTop, ConteinerButtom, SlideMenu } from './style';
-import { User } from '../../Components/User/Intex';
+import User  from '../../Components/User';
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
 import { CloseButton } from '../../Components/CloseButton/intex';
 

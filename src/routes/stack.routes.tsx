@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import React from 'react'
-import { Account } from '../pages/Account/intex';
+import Account from '../pages/Account';
 
 const NativeStack = createNativeStackNavigator();
 

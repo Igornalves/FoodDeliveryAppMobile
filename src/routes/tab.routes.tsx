@@ -7,7 +7,7 @@ import { Setting } from "../pages/Setting/intex";
 import { Browse } from "../pages/Browse/intex";
 import { Cart } from "../pages/Cart/intex";
 import { Order } from "../pages/Order/intex";
-import { Account } from "../pages/Account/intex";
+import Account from "../pages/Account";
 
 
 const { Navigator, Screen } = createBottomTabNavigator();
