@@ -3,12 +3,11 @@ import { MaterialIcons } from '@expo/vector-icons'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { Setting } from "../pages/Setting/intex";
-import { Browse } from "../pages/Browse/intex";
-import { Cart } from "../pages/Cart/intex";
-import { Order } from "../pages/Order/intex";
+import Setting  from "../pages/Setting";
+import  Browse  from "../pages/Browse";
+import  Cart  from "../pages/Cart";
+import  Order  from "../pages/Order";
 import Account from "../pages/Account";
-
 
 const { Navigator, Screen } = createBottomTabNavigator();
 

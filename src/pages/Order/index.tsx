@@ -4,7 +4,7 @@ import {
   Text
 } from './style';
 
-export function Cart() {
+export default function Order() {
   return (
     <Conteiner>
       <Text> Ola Yasmin ! ! !</Text>

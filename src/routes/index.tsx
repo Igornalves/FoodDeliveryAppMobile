@@ -2,7 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import DrawerRoutes from './drawer.routes';
 
-export function Routes() {
+export default function Routes() {
   return (
     <NavigationContainer>
         <DrawerRoutes/>

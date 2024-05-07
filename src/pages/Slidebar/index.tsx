@@ -2,9 +2,9 @@ import React from 'react';
 import { ConteinerTop, ConteinerButtom, SlideMenu } from './style';
 import User  from '../../Components/User';
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
-import { CloseButton } from '../../Components/CloseButton/intex';
+import  CloseButton  from '../../Components/CloseButton';
 
-export function Slidebar(props) {
+export default function Slidebar(props) {
   return (
     <DrawerContentScrollView {...props}>
       <ConteinerTop>

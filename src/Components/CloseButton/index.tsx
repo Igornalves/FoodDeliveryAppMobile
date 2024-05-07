@@ -5,7 +5,7 @@ import {
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
-export function CloseButton() {
+export default function CloseButton() {
   return (
     <TouchableOpacity activeOpacity={0.12}>
         <Conteiner>

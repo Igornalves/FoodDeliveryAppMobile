@@ -4,7 +4,7 @@ import {
   Text
 } from './style';
 
-export function Browse() {
+export default function Cart() {
   return (
     <Conteiner>
       <Text> Ola Yasmin ! ! !</Text>

@@ -7,7 +7,7 @@ import { Feather } from '@expo/vector-icons'
 
 import Stack from './stack.routes'
 import { TabRoutes } from './tab.routes'
-import { Slidebar } from '../pages/Slidebar/intex';
+import Slidebar from '../pages/Slidebar';
 
 const Drawer = createDrawerNavigator();
 
