@@ -1,13 +1,13 @@
 import React from 'react';
 import { 
-    Conteiner,
-    Text,
+  Conteiner,
+  Text
 } from './style';
 
-export default function Setting() {
+export default function Notification() {
   return (
     <Conteiner>
-       <Text> Ola Yasmin ! ! !</Text>
+      <Text> Ola Yasmin ! ! !</Text>
     </Conteiner>
   );
 }

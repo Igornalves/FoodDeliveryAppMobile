@@ -1,35 +1,46 @@
-import React from 'react'
+import React, { useState } from 'react'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { createDrawerNavigator } from '@react-navigation/drawer'
-import { Feather } from '@expo/vector-icons'
 
 import Stack from './stack.routes'
-import { TabRoutes } from './tab.routes'
-import Slidebar from '../pages/Slidebar';
+import  TabRoutes  from './tab.routes'
+import Slidebar from '../Components/Slidebar';
+import TitleSlideBar from '../Components/titleSlideBar';
 
-const Drawer = createDrawerNavigator();
+export const Drawer = createDrawerNavigator()
 
 export default function DrawerRoutes(){
     return(
         <Drawer.Navigator 
         drawerContent={props => <Slidebar {...props}/>}
         screenOptions={{
-            title: '',
-            
-        }}
-        >
+            headerShown: false,
+            headerTitle: props => <TitleSlideBar {...props}/>,
+            drawerStyle: { 
+                // borderRadius: 20,
+                // position: 'absolute',
+            },
+        }}>
             <Drawer.Screen
-                name='settings-native'
-                component={TabRoutes}
+                name='account-Drawer'
+                component={Stack}
                 options={{
-                    drawerIcon: ({size,color}) => <MaterialCommunityIcons name='text-box-outline' color={color} size={size}/>,
-                    drawerLabel:'History'
+                    drawerIcon: ({size,color}) => <MaterialCommunityIcons name='account-outline' color={color} size={size}/>,
+                    drawerLabel:'Account'
                 }}
             />
             <Drawer.Screen
-                name='browse-native'
+                name='settings-Drawer'
+                component={TabRoutes}
+                options={{
+                    drawerIcon: ({size,color}) => <Ionicons name='settings-outline' color={color} size={size}/>,
+                    drawerLabel:'Settings'
+                }}
+            />
+            <Drawer.Screen
+                name='browse-Drawer'
                 component={TabRoutes}
                 options={{
                     drawerIcon: ({size,color}) => <MaterialCommunityIcons name='wallet-outline' color={color} size={size}/>,
@@ -37,7 +48,7 @@ export default function DrawerRoutes(){
                 }}
             />
             <Drawer.Screen
-                name='carts-native'
+                name='carts-Drawer'
                 component={TabRoutes}
                 options={{
                     drawerIcon: ({size,color}) => <Ionicons name='notifications-outline' color={color} size={size}/>,
@@ -45,19 +56,11 @@ export default function DrawerRoutes(){
                 }}
             />
             <Drawer.Screen
-                name='-native'
+                name='-Drawer'
                 component={TabRoutes}
                 options={{
                     drawerIcon: ({size,color}) => <AntDesign name='hearto' color={color} size={size}/>,
                     drawerLabel:'Favourite'
-                }}
-            />
-            <Drawer.Screen
-                name='account-native'
-                component={Stack}
-                options={{
-                    drawerIcon: ({size,color}) => <MaterialCommunityIcons name='account-outline' color={color} size={size}/>,
-                    drawerLabel:'Account'
                 }}
             />
         </Drawer.Navigator>

@@ -7,8 +7,3 @@ export const Conteiner = styled.View`
     justify-content: center;
     background-color: chartreuse;
 `;
-
-export const Text = styled.Text`
-    color: black;
-    font-size: 18px;
-`;

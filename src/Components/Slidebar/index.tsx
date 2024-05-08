@@ -1,17 +1,16 @@
 import React from 'react';
 import { ConteinerTop, ConteinerButtom, SlideMenu } from './style';
-import User  from '../../Components/User';
+import User  from '../User';
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
-import  CloseButton  from '../../Components/CloseButton';
+import  CloseButton  from '../CloseButton';
 
 export default function Slidebar(props) {
   return (
     <DrawerContentScrollView {...props}>
       <ConteinerTop>
-        <CloseButton/>
-        <User/>
+        <CloseButton {...props}/>
+        <User {...props}/>
       </ConteinerTop>
-      <SlideMenu>Menu</SlideMenu>
       <DrawerItemList {...props}/>
       <ConteinerButtom>
 

@@ -6,8 +6,14 @@ import {
   BorderImage
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import { DrawerActions } from '@react-navigation/native';
 
-export default function User() {
+export default function User(props) {
+
+  const pressButton = () => {
+    props.navigation.dispatch(DrawerActions.closeDrawer());
+  };
+
   return (
     <TouchableOpacity activeOpacity={0.12}>
       <Conteiner>

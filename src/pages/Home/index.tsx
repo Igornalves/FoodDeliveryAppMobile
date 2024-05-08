@@ -1,13 +1,13 @@
 import React from 'react';
 import { 
-  Conteiner,
-  Text
+    Conteiner,
+    Text,
 } from './style';
 
-export default function Cart() {
+export default function Home() {
   return (
     <Conteiner>
-      <Text> Ola Yasmin ! ! !</Text>
+       <Text> Ola Yasmin tudo bem ! ! !</Text>
     </Conteiner>
   );
 }
