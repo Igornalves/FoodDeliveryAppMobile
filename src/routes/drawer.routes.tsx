@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import AntDesign from '@expo/vector-icons/AntDesign';
+import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
 import { createDrawerNavigator } from '@react-navigation/drawer'
 
 import Stack from './stack.routes'
@@ -24,11 +25,27 @@ export default function DrawerRoutes(){
             },
         }}>
             <Drawer.Screen
-                name='account-Drawer'
-                component={Stack}
+                name='Payment-Methods-Drawer'
+                component={TabRoutes}
                 options={{
-                    drawerIcon: ({size,color}) => <MaterialCommunityIcons name='account-outline' color={color} size={size}/>,
-                    drawerLabel:'Account'
+                    drawerIcon: ({size,color}) => <Ionicons name='wallet-outline' color={color} size={size}/>,
+                    drawerLabel:'Payment Methods'
+                }}
+            />
+            <Drawer.Screen
+                name='Rewards-and-Offers-Drawer'
+                component={TabRoutes}
+                options={{
+                    drawerIcon: ({size,color}) => <SimpleLineIcons name='present' color={color} size={size}/>,
+                    drawerLabel:'Rewards and Offers'
+                }}
+            />
+            <Drawer.Screen
+                name='Order-Drawer'
+                component={TabRoutes}
+                options={{
+                    drawerIcon: ({size,color}) => <Ionicons name='wallet-outline' color={color} size={size}/>,
+                    drawerLabel:'Order'
                 }}
             />
             <Drawer.Screen
@@ -40,27 +57,11 @@ export default function DrawerRoutes(){
                 }}
             />
             <Drawer.Screen
-                name='browse-Drawer'
-                component={TabRoutes}
+                name='account-Drawer'
+                component={Stack}
                 options={{
-                    drawerIcon: ({size,color}) => <MaterialCommunityIcons name='wallet-outline' color={color} size={size}/>,
-                    drawerLabel:'Wallet'
-                }}
-            />
-            <Drawer.Screen
-                name='carts-Drawer'
-                component={TabRoutes}
-                options={{
-                    drawerIcon: ({size,color}) => <Ionicons name='notifications-outline' color={color} size={size}/>,
-                    drawerLabel:'Notifications'
-                }}
-            />
-            <Drawer.Screen
-                name='-Drawer'
-                component={TabRoutes}
-                options={{
-                    drawerIcon: ({size,color}) => <AntDesign name='hearto' color={color} size={size}/>,
-                    drawerLabel:'Favourite'
+                    drawerIcon: ({size,color}) => <MaterialCommunityIcons name='account-outline' color={color} size={size}/>,
+                    drawerLabel:'Account'
                 }}
             />
         </Drawer.Navigator>

@@ -3,9 +3,10 @@ import {
     Conteiner,
     MenuIcon,
     Text,
-    ConteinerText
+    ConteinerText,
+    IconLocation
 } from './style';
-import { Button, TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 import { DrawerActions } from '@react-navigation/native';
 
 export default function TopNavigation( props ) {
@@ -20,8 +21,8 @@ export default function TopNavigation( props ) {
                 <MenuIcon name={'menu-outline'}/> 
             </TouchableOpacity> 
             <ConteinerText>
-                <Text>Deliver now</Text>
-                <Text>Maplewood Suites</Text>
+                <IconLocation name='location-pin'/>
+                <Text>Rivertown Haven</Text>
             </ConteinerText>
         </Conteiner>
     );

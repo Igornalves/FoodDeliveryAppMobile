@@ -1,10 +1,14 @@
 import React from 'react';
-import { Conteiner } from './style';
+import { 
+  Conteiner,
+  Text
+} from './style';
+import TopNavigation from '../../Components/TopNavigation';
 
-export default function Locetion() {
+export default function Locetion(props) {
   return (
     <Conteiner>
-       
+       <Text> Ola Yasmin tudo bem ! ! !</Text>
     </Conteiner>
   );
 }

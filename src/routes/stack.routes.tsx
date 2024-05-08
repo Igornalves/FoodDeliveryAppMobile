@@ -11,6 +11,10 @@ export default function Stack(){
                 name='account-stack'
                 component={Account}
             />
+            <NativeStack.Screen
+                name='PaymentMethods-stack'
+                component={Account}
+            />
         </NativeStack.Navigator>
     );
 }

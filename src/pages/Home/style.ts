@@ -8,6 +8,10 @@ export const Conteiner = styled.View`
     background-color: red;
 `;
 
+export const ConteinerTopNavigation = styled.View`
+    
+`;
+
 export const Text = styled.Text`
     color: wheat;
     font-size: 18px;
