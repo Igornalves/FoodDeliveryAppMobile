@@ -12,7 +12,7 @@ import { DrawerActions } from '@react-navigation/native';
 export default function TopNavigation( props ) {
 
     const pressButton = () => {
-        props.navigation.dispatch(DrawerActions.openDrawer()); 
+        props.navigation.dispatch(DrawerActions.openDrawer());
     };
 
     return (

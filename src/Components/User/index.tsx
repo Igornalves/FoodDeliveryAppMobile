@@ -23,5 +23,5 @@ export default function User(props) {
         <Text>Helene Chung</Text>
       </Conteiner>
     </TouchableOpacity>
-);
-}
+  );
+  }

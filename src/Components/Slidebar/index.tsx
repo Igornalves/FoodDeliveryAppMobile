@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConteinerTop, ConteinerButtom, SlideMenu } from './style';
+import { ConteinerTop, ConteinerButtom } from './style';
 import User  from '../User';
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
 import  CloseButton  from '../CloseButton';
