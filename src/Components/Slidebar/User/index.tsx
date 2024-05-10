@@ -24,7 +24,7 @@ export default function User(props) {
     <TouchableOpacity activeOpacity={0.12}>
       <Conteiner>
         <BorderImage>
-          <Photo source={require('../../../images/user.png')}/>
+          <Photo source={require('../../../global/images/user.png')}/>
         </BorderImage>
         <ConteinerInfo>
           <ConteinerName>

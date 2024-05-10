@@ -8,8 +8,8 @@ import {
 export default function Searchbar() {
   return (
     <Conteiner>
-        <Icon name='search'/>
-       <Text placeholder='Search your food'/>
+      <Icon name='search'/>
+      <Text placeholder='Search your food'/>
     </Conteiner>
   );
 }

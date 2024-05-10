@@ -28,7 +28,7 @@ export const Photo = styled.Image`
 `;
 
 export const Text = styled.Text`
-    font-size: 18px;
+    font-size: 16px;
 `;
 
 export const TextEmail = styled.Text`

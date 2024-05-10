@@ -10,7 +10,7 @@ export const Conteiner = styled.View`
     border-radius: 10px;
     align-items:center ;
     margin-left: 10px;
-    
+    margin-top: 20px;
 `;
 
 export const Text = styled.TextInput`

@@ -1,10 +1,12 @@
 import React from 'react';
 import { 
     Conteiner,
-    ConteinerTopNavigation
+    ConteinerTopNavigation,
+    ConteinerSearchAndFilter
 } from './style';
 import TopNavigation from '../../Components/TopNavigation';
 import Searchbar from '../../Components/Searchbar';
+import FilterButton from '../../Components/FilterButton';
 
 export default function Home(props) {
   return (
@@ -12,7 +14,10 @@ export default function Home(props) {
       <ConteinerTopNavigation>
         <TopNavigation {...props}/>
       </ConteinerTopNavigation>
-      <Searchbar/>
+      <ConteinerSearchAndFilter>
+        <Searchbar/>
+        <FilterButton/>
+      </ConteinerSearchAndFilter>
     </Conteiner>
   );
 }
