@@ -18,11 +18,13 @@ export default function User(props) {
     props.navigation.dispatch(DrawerActions.closeDrawer());
   };
 
+  
+
   return (
     <TouchableOpacity activeOpacity={0.12}>
       <Conteiner>
         <BorderImage>
-          <Photo source={require('../../images/user.png')}/>
+          <Photo source={require('../../../images/user.png')}/>
         </BorderImage>
         <ConteinerInfo>
           <ConteinerName>

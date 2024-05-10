@@ -1,10 +1,10 @@
 import React from 'react';
 import { 
     Conteiner,
-    Text,
     ConteinerTopNavigation
 } from './style';
 import TopNavigation from '../../Components/TopNavigation';
+import Searchbar from '../../Components/Searchbar';
 
 export default function Home(props) {
   return (
@@ -12,7 +12,7 @@ export default function Home(props) {
       <ConteinerTopNavigation>
         <TopNavigation {...props}/>
       </ConteinerTopNavigation>
-       {/* <Text> Ola Yasmin tudo bem ! ! !</Text> */}
+      <Searchbar/>
     </Conteiner>
   );
 }

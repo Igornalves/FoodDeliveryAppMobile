@@ -9,6 +9,7 @@ import Slidebar from '../Components/Slidebar';
 import Settings from '../pages/Settings';
 import Account from '../pages/Account';
 import Order from '../pages/Order';
+import theme from '../global/style/theme';
 
 export const Drawer = createDrawerNavigator()
 
@@ -18,11 +19,9 @@ export default function DrawerRoutes(){
         drawerContent={props => <Slidebar {...props}/>}
         screenOptions={{
             headerShown: false,
-            drawerStyle: { 
-                // borderRadius: 20,
-                // position: 'absolute',
-                marginLeft:0
-            },
+            drawerActiveTintColor: theme.colors.Black,
+            drawerInactiveTintColor: theme.colors.DarkGray
+            
         }}>
             <Drawer.Screen
                 name='Payment-Methods-Drawer'

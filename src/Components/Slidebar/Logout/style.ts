@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import theme from '../../global/style/theme';
+import theme from '../../../global/style/theme';
 import { RFValue } from 'react-native-responsive-fontsize';
 
 export const Conteiner = styled.View`

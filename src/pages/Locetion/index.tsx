@@ -3,7 +3,6 @@ import {
   Conteiner,
   Text
 } from './style';
-import TopNavigation from '../../Components/TopNavigation';
 
 export default function Locetion(props) {
   return (

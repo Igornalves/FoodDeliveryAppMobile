@@ -3,7 +3,7 @@ import {
   Conteiner,
 } from './style';
 
-import User from '../../Components/User';
+import User from '../../Components/Slidebar/User';
 import TopNavigation from '../../Components/TopNavigation';
 import Routes from '../../routes';
 

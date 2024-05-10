@@ -1,7 +1,7 @@
 import { RFValue } from 'react-native-responsive-fontsize';
 import styled from 'styled-components/native';
 import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
-import theme from '../../global/style/theme';
+import theme from '../../../global/style/theme';
 
 export const Conteiner = styled.View`
     align-items: center;
