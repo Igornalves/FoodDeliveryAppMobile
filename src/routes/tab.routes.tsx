@@ -2,7 +2,6 @@ import React from "react";
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import Octicons from '@expo/vector-icons/Octicons';
-import EvilIcons from '@expo/vector-icons/EvilIcons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import Home  from "../pages/Home";
 import  Notification  from "../pages/Notification";

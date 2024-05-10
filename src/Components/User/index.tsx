@@ -3,7 +3,11 @@ import {
   Conteiner,
   Photo,
   Text,
-  BorderImage
+  BorderImage,
+  Icon,
+  ConteinerInfo,
+  ConteinerName,
+  TextEmail
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { DrawerActions } from '@react-navigation/native';
@@ -20,7 +24,13 @@ export default function User(props) {
         <BorderImage>
           <Photo source={require('../../images/user.png')}/>
         </BorderImage>
-        <Text>Helene Chung</Text>
+        <ConteinerInfo>
+          <ConteinerName>
+            <Text>Helene Chung</Text> 
+            <Icon name='pencil'/>
+          </ConteinerName>
+          <TextEmail>Example@gmail.com</TextEmail>
+        </ConteinerInfo>
       </Conteiner>
     </TouchableOpacity>
   );

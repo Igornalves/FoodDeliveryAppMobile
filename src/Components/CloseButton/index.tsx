@@ -4,8 +4,7 @@ import {
     ButtonClose
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import { DrawerActions, useNavigation } from '@react-navigation/native';
-
+import { DrawerActions} from '@react-navigation/native';
 
 export default function CloseButton(props) {
   

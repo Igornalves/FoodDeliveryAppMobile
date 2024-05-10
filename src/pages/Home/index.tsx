@@ -12,7 +12,7 @@ export default function Home(props) {
       <ConteinerTopNavigation>
         <TopNavigation {...props}/>
       </ConteinerTopNavigation>
-       <Text> Ola Yasmin tudo bem ! ! !</Text>
+       {/* <Text> Ola Yasmin tudo bem ! ! !</Text> */}
     </Conteiner>
   );
 }

@@ -4,7 +4,7 @@ import {
   Text
 } from './style';
 
-export default function Browse() {
+export default function Settings() {
   return (
     <Conteiner>
       <Text> Ola Yasmin ! ! !</Text>

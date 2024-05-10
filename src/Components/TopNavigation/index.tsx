@@ -4,7 +4,9 @@ import {
     MenuIcon,
     Text,
     ConteinerText,
-    IconLocation
+    IconLocation,
+    IconCart,
+    IconChevron 
 } from './style';
 import { TouchableOpacity } from 'react-native';
 import { DrawerActions } from '@react-navigation/native';
@@ -20,10 +22,16 @@ export default function TopNavigation( props ) {
             <TouchableOpacity activeOpacity={0.12} onPress={pressButton}> 
                 <MenuIcon name={'menu-outline'}/> 
             </TouchableOpacity> 
-            <ConteinerText>
-                <IconLocation name='location-pin'/>
-                <Text>Rivertown Haven</Text>
-            </ConteinerText>
+            <TouchableOpacity activeOpacity={0.12}>
+                <ConteinerText>
+                    <IconLocation name='location-pin'/>
+                    <Text>Rivertown Haven</Text>
+                    <IconChevron name='chevron-down'/>
+                </ConteinerText>
+            </TouchableOpacity>
+                <TouchableOpacity activeOpacity={0.12}>
+                    <IconCart name='shopping-cart'/>
+                </TouchableOpacity>
         </Conteiner>
     );
 }
