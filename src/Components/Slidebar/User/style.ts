@@ -27,13 +27,15 @@ export const Photo = styled.Image`
     margin-bottom: ${RFValue(8)}px;
 `;
 
-export const Text = styled.Text`
+export const TextName = styled.Text`
     font-size: 16px;
+    font-family: ${theme.fonts.HeadingH1};
 `;
 
 export const TextEmail = styled.Text`
     font-size: 14px;
-    color: ${theme.colors.LightGray}
+    color: ${theme.colors.LightGray};
+    font-family: ${theme.fonts.Body};
 `;
 
 export const Icon = styled(SimpleLineIcons)`

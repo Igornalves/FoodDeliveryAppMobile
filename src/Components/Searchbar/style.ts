@@ -16,6 +16,9 @@ export const Conteiner = styled.View`
 export const Text = styled.TextInput`
     font-size: 12px;
     padding-left: 12px;
+    font-family: ${theme.fonts.Body};
+    width: 245px;
+    height: 55px;
 `;
 
 export const Icon = styled(Feather)`

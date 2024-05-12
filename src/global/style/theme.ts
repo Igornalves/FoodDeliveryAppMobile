@@ -9,7 +9,14 @@ export default {
     },
 
     fonts: {
+        HeadingH1: 'Montserrat_500Medium',
+        HeadingH2: 'Montserrat_600SemiBold',
 
+        Subheading20: 'Montserrat_600SemiBold',
+        Subheading16: 'Montserrat_500Medium',
+        Subheading12: 'Montserrat_500Medium',
+
+        Body: 'Inter_400Regular'
     },
 
 }

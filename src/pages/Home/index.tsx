@@ -7,6 +7,7 @@ import {
 import TopNavigation from '../../Components/TopNavigation';
 import Searchbar from '../../Components/Searchbar';
 import FilterButton from '../../Components/FilterButton';
+import OurMenu from '../../Components/OurMenu';
 
 export default function Home(props) {
   return (
@@ -18,6 +19,7 @@ export default function Home(props) {
         <Searchbar/>
         <FilterButton/>
       </ConteinerSearchAndFilter>
+      <OurMenu/>
     </Conteiner>
   );
 }

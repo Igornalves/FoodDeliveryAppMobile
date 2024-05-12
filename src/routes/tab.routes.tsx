@@ -47,7 +47,7 @@ export default function TabRoutes() {
                 }}
             />
             <Screen 
-                name="Orders"
+                name="Order"
                 component={Order}
                 options={{
                     tabBarIcon: (({size,color})=>

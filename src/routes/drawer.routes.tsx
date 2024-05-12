@@ -20,15 +20,16 @@ export default function DrawerRoutes(){
         screenOptions={{
             headerShown: false,
             drawerActiveTintColor: theme.colors.Black,
-            drawerInactiveTintColor: theme.colors.DarkGray
-            
-        }}>
+            drawerInactiveTintColor: theme.colors.DarkGray,
+            // drawerHideStatusBarOnOpen: true,
+        }}
+        >
             <Drawer.Screen
                 name='Payment-Methods-Drawer'
                 component={TabRoutes}
                 options={{
                     drawerIcon: ({size,color}) => <Ionicons name='wallet-outline' color={color} size={size}/>,
-                    drawerLabel:'Payment Methods'
+                    drawerLabel:'Payment Methods',
                 }}
             />
             <Drawer.Screen

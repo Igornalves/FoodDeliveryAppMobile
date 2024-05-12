@@ -3,6 +3,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import Entypo from '@expo/vector-icons/Entypo';
 import Feather from '@expo/vector-icons/Feather';
 import { RFValue } from 'react-native-responsive-fontsize';
+import theme from '../../global/style/theme';
 
 export const Conteiner = styled.View`
     flex-direction: row;
@@ -17,11 +18,12 @@ export const ConteinerText = styled.View`
 
 export const MenuIcon = styled(Ionicons)`
     font-size: 45px;
-    padding-right: ${RFValue(35)}px;
+    padding-right: ${RFValue(38)}px;
 `;
 
 export const Text = styled.Text`
-    font-size: 18px;
+    font-size: 16px;
+    font-family: ${theme.fonts.Body};
 `;
 
 export const IconLocation = styled(Entypo)`
@@ -31,8 +33,8 @@ export const IconLocation = styled(Entypo)`
 
 export const IconCart = styled(Feather)`
     font-size: 25px;
-    padding-left: ${RFValue(35)}px;
-    padding-right: 9px;
+    padding-left: ${RFValue(38)}px;
+    padding-right: 10px;
 `;
 
 export const IconChevron = styled(Entypo)`

@@ -2,7 +2,7 @@ import React from 'react';
 import { 
   Conteiner,
   Photo,
-  Text,
+  TextName,
   BorderImage,
   Icon,
   ConteinerInfo,
@@ -18,8 +18,6 @@ export default function User(props) {
     props.navigation.dispatch(DrawerActions.closeDrawer());
   };
 
-  
-
   return (
     <TouchableOpacity activeOpacity={0.12}>
       <Conteiner>
@@ -28,7 +26,7 @@ export default function User(props) {
         </BorderImage>
         <ConteinerInfo>
           <ConteinerName>
-            <Text>Helene Chung</Text> 
+            <TextName>Helene Chung</TextName> 
             <Icon name='pencil'/>
           </ConteinerName>
           <TextEmail>Example@gmail.com</TextEmail>

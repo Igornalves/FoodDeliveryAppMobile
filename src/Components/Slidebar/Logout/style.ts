@@ -18,4 +18,5 @@ export const Icon = styled(MaterialIcons)`
 export const Text = styled.Text`
     font-size: 16px;
     color: ${theme.colors.DarkGray};
+    font-family: ${theme.fonts.HeadingH1};
 `;
