@@ -1,5 +1,6 @@
 import { RFValue } from 'react-native-responsive-fontsize';
 import styled from 'styled-components/native';
+import theme from '../../../global/style/theme';
 
 export const Conteiner = styled.View`
     flex-direction: row;
@@ -8,7 +9,7 @@ export const Conteiner = styled.View`
 `
 
 export const ImageFoodMeat = styled.Image`
-    width: ${RFValue(73)}px;
+    width: ${RFValue(70)}px;
     height: ${RFValue(45)}px;
 `;
 
@@ -29,9 +30,11 @@ export const ImageFoodBurger = styled.Image`
 
 export const TextName = styled.Text`
     margin-top: 10px;
+    font-size: 12px;
+    font-family: ${theme.fonts.Body};
 `
 
 export const ConteinerImagemFood = styled.View`
     align-items: center;
-    margin-right: 16px;
+    margin-right: 15px;
 `

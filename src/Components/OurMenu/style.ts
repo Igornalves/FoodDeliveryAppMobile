@@ -11,5 +11,5 @@ export const TextTitule = styled.Text`
     font-family: ${theme.fonts.HeadingH2};
     font-size: 20px;
     margin-left: 15px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 `;

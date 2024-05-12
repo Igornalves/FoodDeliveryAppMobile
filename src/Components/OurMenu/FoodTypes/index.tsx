@@ -29,8 +29,12 @@ export default function FoodTypes() {
             <TextName>Burger</TextName>
         </ConteinerImagemFood>
         <ConteinerImagemFood>
-            {/* <ImageFoodBurger source={require('')}/>
-            <TextName>Burger</TextName> */}
+            <ImageFoodBurger source={require('../../../global/images/Fresh-beef-burger-isolated--6 1.png')}/>
+            <TextName>Burger</TextName>
+        </ConteinerImagemFood>
+        <ConteinerImagemFood>
+            <ImageFoodDessert source={require('../../../global/images/donut_6 1.png')}/>
+            <TextName>Dessert</TextName>
         </ConteinerImagemFood>
     </Conteiner>
   );
