@@ -9,7 +9,6 @@ import  Order  from "../pages/Order";
 import Locetion from "../pages/Locetion";
 
 import theme from "../global/style/theme";
-import Stack from "./stack.routes";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -62,7 +61,7 @@ export default function TabRoutes() {
             />
             <Screen 
                 name="Notifi"
-                component={Stack}
+                component={Notification}
                 options={{
                     tabBarIcon: (({size,color})=>
                         <Ionicons

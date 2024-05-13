@@ -10,6 +10,8 @@ import Settings from '../pages/Settings';
 import Account from '../pages/Account';
 import Order from '../pages/Order';
 import theme from '../global/style/theme';
+import Stack from './stack.routes';
+import OnboardingScreens from '../pages/OnboardingScreens';
 
 export const Drawer = createDrawerNavigator()
 
@@ -23,6 +25,7 @@ export default function DrawerRoutes(){
             drawerInactiveTintColor: theme.colors.DarkGray,
             // drawerHideStatusBarOnOpen: true,
         }}
+        initialRouteName=''
         >
             <Drawer.Screen
                 name='Payment-Methods-Drawer'
