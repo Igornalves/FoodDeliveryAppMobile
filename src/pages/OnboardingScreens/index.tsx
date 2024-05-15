@@ -60,7 +60,7 @@ export default function OnboardingScreens() {
   const navigation = useNavigation();
 
   function StartApp(){
-    navigation.navigate('StartScreen');
+    navigation.navigate('Welcome-Stack');
   }
   
   useEffect(() => {
