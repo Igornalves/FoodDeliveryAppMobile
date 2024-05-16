@@ -8,6 +8,8 @@ import TopNavigation from '../../Components/TopNavigation';
 import Searchbar from '../../Components/Searchbar';
 import FilterButton from '../../Components/FilterButton';
 import OurMenu from '../../Components/OurMenu';
+import ActionBox from '../../Components/ActionBox';
+import Products from '../../Components/Products';
 
 export default function Home(props) {
   return (
@@ -20,6 +22,8 @@ export default function Home(props) {
         <FilterButton/>
       </ConteinerSearchAndFilter>
       <OurMenu/>
+      <ActionBox/>
+      <Products/>
     </Conteiner>
   );
 }

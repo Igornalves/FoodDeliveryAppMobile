@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
     Conteiner,
-    Text,
+    TextInput,
     Icon
 } from './style';
 
@@ -9,7 +9,7 @@ export default function Searchbar() {
   return (
     <Conteiner>
       <Icon name='search'/>
-      <Text placeholder='Search your food'/>
+      <TextInput placeholder='Search your food'/>
     </Conteiner>
   );
 }

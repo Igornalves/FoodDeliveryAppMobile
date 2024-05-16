@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 
-export const OurMenuScrollView = styled.ScrollView.attrs({
+export const ListProductsScollView = styled.ScrollView.attrs({
     horizontal: true,
     showsHorizontalScrollIndicator: false,
     contentContainerStyle: { paddingLeft: 13 }

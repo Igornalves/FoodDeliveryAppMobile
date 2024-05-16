@@ -19,17 +19,17 @@ export default function TopNavigation( props ) {
 
     return (
         <Conteiner>
-            <TouchableOpacity activeOpacity={0.12} onPress={pressButton}> 
+            <TouchableOpacity activeOpacity={0.4} onPress={pressButton}> 
                 <MenuIcon name={'menu-outline'}/> 
             </TouchableOpacity> 
-            <TouchableOpacity activeOpacity={0.12}>
+            <TouchableOpacity activeOpacity={0.3}>
                 <ConteinerText>
                     <IconLocation name='location-pin'/>
                     <Text>Rivertown Haven</Text>
                     <IconChevron name='chevron-down'/>
                 </ConteinerText>
             </TouchableOpacity>
-                <TouchableOpacity activeOpacity={0.12}>
+                <TouchableOpacity activeOpacity={0.3}>
                     <IconCart name='shopping-cart'/>
                 </TouchableOpacity>
         </Conteiner>

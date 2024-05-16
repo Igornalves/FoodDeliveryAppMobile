@@ -13,7 +13,7 @@ export const Conteiner = styled.View`
     margin-top: 20px;
 `;
 
-export const Text = styled.TextInput`
+export const TextInput = styled.TextInput`
     font-size: 12px;
     padding-left: 12px;
     font-family: ${theme.fonts.Body};

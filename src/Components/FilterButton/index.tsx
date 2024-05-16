@@ -7,7 +7,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function FilterButton() {
   return (
-    <TouchableOpacity activeOpacity={0.12}>
+    <TouchableOpacity activeOpacity={0.2}>
         <Conteiner>
             <IconFilter name='equalizer'/>
         </Conteiner>
