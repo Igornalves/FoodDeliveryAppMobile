@@ -11,12 +11,14 @@ import {
   ConteinerPorcentagenForCupon,
   TextPorcentagen,
   TextRub
-} from './style';
+} from '../style';
+import { CuponsGerais } from '../../../global/interface/inteface';
 
-export default function CuponsMain() {
+
+export default function CuponsGerais({ image }: CuponsGerais) {
   return (
       <Conteiner>
-        <Image source={require('../../global/images/cupomDesconto.png')}/>
+        <Image source={{ uri: image}}/>
         <ConteinerPorcentagenForCupon>
           <TextPorcentagen>45%</TextPorcentagen>
           <TextRub>off!</TextRub>

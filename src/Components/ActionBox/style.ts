@@ -40,9 +40,9 @@ export const TextSub = styled.Text`
 export const TextButtom = styled.Text`
     width: 120px;
     padding: 15px;
-    color: ${theme.colors.White};
     border-radius: 10px;
     margin-top: 20px;
+    color: ${theme.colors.White};
     background-color: ${theme.colors.Black};
     font-family: ${theme.fonts.Subheading12};
 `;

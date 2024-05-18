@@ -11,6 +11,7 @@ import OurMenu from '../../Components/OurMenu';
 import ActionBox from '../../Components/ActionBox';
 import Products from '../../Components/Products';
 import { ListProductsScollView } from '../../Components/ListProduct/ListProduct';
+import CuponsMain from '../../Components/Cupons';
 
 export default function Home(props) {
   return (
@@ -26,6 +27,7 @@ export default function Home(props) {
         <OurMenu/>
         <ActionBox/>
         <Products/>
+        <CuponsMain/>
       </ListProductsScollView>
     </Conteiner>
   );

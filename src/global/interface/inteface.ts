@@ -10,4 +10,8 @@ export interface TypeProducts{
     PayI: string,
     DiscontI?: string,
     imageI?: string
-  }
+}
+
+export interface CuponsGerais{
+    image: string
+}
