@@ -6,12 +6,12 @@ export const Conteiner = styled.View`
 `;
 
 export const ConteinerProductsList = styled.View`
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 13px;
-    align-items: center;
+    gap: 15px;
+    justify-content: center;
 `;
 
 export const ConteinerTop = styled.View`

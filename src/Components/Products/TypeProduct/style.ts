@@ -5,7 +5,7 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import theme from '../../../global/style/theme';
 
 export const Conteiner = styled.View`
-
+    /* align-items: center; */
 `;
 
 export const ConteinerImageAndIconLike = styled.View`
@@ -33,7 +33,9 @@ export const Image = styled.Image`
 `;
 
 export const Titule = styled.Text`
-
+    color: ${theme.colors.Black};
+    font-family: ${theme.fonts.Subheading16};
+    font-size: 14px;
 `;
   
 export const IconTime = styled(MaterialCommunityIcons)`
@@ -41,10 +43,16 @@ export const IconTime = styled(MaterialCommunityIcons)`
 `;
 
 export const IconAdd = styled(MaterialIcons)`
-
+    background-color: ${theme.colors.White};
+    border-radius: 5px;
+    padding: 3px;
 `;
   
 export const Text = styled.Text`
+
+`;
+
+export const TextFeed = styled.Text`
 
 `;
 

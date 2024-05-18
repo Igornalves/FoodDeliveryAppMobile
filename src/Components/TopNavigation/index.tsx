@@ -9,17 +9,21 @@ import {
     IconChevron 
 } from './style';
 import { TouchableOpacity } from 'react-native';
-import { DrawerActions } from '@react-navigation/native';
+import { pressButton } from '../../global/other/objects';
 
 export default function TopNavigation( props ) {
 
-    const pressButton = () => {
-        props.navigation.dispatch(DrawerActions.openDrawer());
-    };
+    // const pressButton = () => {
+    //     props.navigation.dispatch(DrawerActions.openDrawer());
+    // };
+    
+    function activeButton(){
+        pressButton(props)
+    } 
 
     return (
         <Conteiner>
-            <TouchableOpacity activeOpacity={0.4} onPress={pressButton}> 
+            <TouchableOpacity activeOpacity={0.4} onPress={activeButton}> 
                 <MenuIcon name={'menu-outline'}/> 
             </TouchableOpacity> 
             <TouchableOpacity activeOpacity={0.3}>

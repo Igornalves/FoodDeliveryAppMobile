@@ -10,13 +10,12 @@ import {
   TextEmail
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import { DrawerActions } from '@react-navigation/native';
 
 export default function User(props) {
 
-  const pressButton = () => {
-    props.navigation.dispatch(DrawerActions.closeDrawer());
-  };
+  // const pressButton = () => {
+  //   props.navigation.dispatch(DrawerActions.closeDrawer());
+  // };
 
   return (
     <TouchableOpacity activeOpacity={0.12}>
