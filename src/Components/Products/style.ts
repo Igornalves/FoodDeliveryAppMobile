@@ -17,7 +17,8 @@ export const ConteinerProductsList = styled.View`
 export const ConteinerTop = styled.View`
     flex-direction: row;
     align-items: center;
-    margin-top: 22px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 `;
 
 export const Text = styled.Text`

@@ -8,6 +8,6 @@ export interface TypeProducts{
     TextI: string,
     TextFeedI: string,
     PayI: string,
-    DiscontI: string,
-    imageI: string
+    DiscontI?: string,
+    imageI?: string
   }

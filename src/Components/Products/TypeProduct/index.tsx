@@ -13,7 +13,8 @@ import {
   Discont,
   ConteinerPayWithDiscount,
   ConteinerImageAndIconLike,
-  IconAdd
+  IconAdd,
+  IconLike
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { TypeProducts } from '../../../global/interface/inteface';
@@ -23,20 +24,23 @@ export default function TypeProduct({ DiscontI,PayI,TextFeedI,TextI,TituleI,imag
     <Conteiner>
       <TouchableOpacity activeOpacity={0.2}>
         <ConteinerImageAndIconLike>
-          <Image source={require('../../../global/images/Delicious-fried-chicken-with-french-fries--5 1.png')}/>
+          <Image source={{uri: imageI}}/>
+          <TouchableOpacity activeOpacity={0.2}>
+            <IconLike name='hearto'/>
+          </TouchableOpacity>
         </ConteinerImageAndIconLike>
       </TouchableOpacity>
-        <Titule>Bacon Bliss Bomb...</Titule>
+        <Titule>{TituleI}</Titule>
         <ConteinerTimeAndFeedBack>
           <IconTime name='clock-time-three-outline'/>
-          <Text> 30 min</Text>
+          <Text> {TextI}</Text>
           <Bar> | </Bar>
           <IconFeed name='star'/>
-          <TextFeed> 1.2k</TextFeed>
+          <TextFeed> {TextFeedI}</TextFeed>
         </ConteinerTimeAndFeedBack>
         <ConteinerPayWithDiscount>
-          <Pay>$10.99</Pay>
-          <Discont> 10% off</Discont>
+          <Pay>{PayI}</Pay>
+          <Discont> {DiscontI}</Discont>
           <IconAdd name='add'/>
         </ConteinerPayWithDiscount>
     </Conteiner>

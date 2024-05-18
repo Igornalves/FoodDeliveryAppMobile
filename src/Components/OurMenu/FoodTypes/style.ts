@@ -29,7 +29,7 @@ export const ImageFoodBurger = styled.Image`
 `;
 
 export const TextName = styled.Text`
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 12px;
     font-family: ${theme.fonts.Body};
 `

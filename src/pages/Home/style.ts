@@ -12,6 +12,7 @@ export const Conteiner = styled.View`
 export const ConteinerSearchAndFilter = styled.View`
     flex-direction: row;
     align-items: center;
+    margin-bottom: 10px;
 `;
 
 export const ConteinerTopNavigation = styled.View`

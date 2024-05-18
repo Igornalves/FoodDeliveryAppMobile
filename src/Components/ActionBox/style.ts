@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import theme from '../../global/style/theme';
 
 export const Conteiner = styled.View`
-    margin-top: 20px;
+    margin-top: 13px;
     border-radius: 20px;
     width: 350px;
     height: 160px;

@@ -10,6 +10,7 @@ import FilterButton from '../../Components/FilterButton';
 import OurMenu from '../../Components/OurMenu';
 import ActionBox from '../../Components/ActionBox';
 import Products from '../../Components/Products';
+import { ListProductsScollView } from '../../Components/ListProduct/ListProduct';
 
 export default function Home(props) {
   return (
@@ -21,9 +22,11 @@ export default function Home(props) {
         <Searchbar/>
         <FilterButton/>
       </ConteinerSearchAndFilter>
-      <OurMenu/>
-      <ActionBox/>
-      <Products/>
+      <ListProductsScollView>
+        <OurMenu/>
+        <ActionBox/>
+        <Products/>
+      </ListProductsScollView>
     </Conteiner>
   );
 }
