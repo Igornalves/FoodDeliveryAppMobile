@@ -2,6 +2,15 @@ import styled from 'styled-components/native';
 import theme from '../../global/style/theme';
 
 export const Conteiner = styled.View`
+    align-items: center; 
+`;
+
+export const ConteinerProductsList = styled.View`
+    background-color: blue;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    gap: 13px;
     align-items: center;
 `;
 
