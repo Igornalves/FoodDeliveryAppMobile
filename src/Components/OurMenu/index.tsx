@@ -3,16 +3,16 @@ import {
     Conteiner,
     TextTitule,
 } from './style';
-import { OurMenuScrollView } from './OurMenuScrollView/style';
 import FoodTypes from './FoodTypes';
+import { ListProductsHorizontalScollView } from '../ListProductsHorizontal/ListProductsHorizontal';
 
 export default function OurMenu() {
   return (
     <Conteiner>
         <TextTitule>Our menu</TextTitule>
-        <OurMenuScrollView>
+        <ListProductsHorizontalScollView>
             <FoodTypes/>
-        </OurMenuScrollView>
+        </ListProductsHorizontalScollView>
     </Conteiner>
   );
 }

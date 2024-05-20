@@ -3,7 +3,7 @@ import theme from '../../global/style/theme';
 
 export const Conteiner = styled.View`
     margin-top: 13px;
-    margin-bottom: 15px;
+    margin-bottom: 22px;
     border-radius: 20px;
     width: 355px;
     height: 167px;

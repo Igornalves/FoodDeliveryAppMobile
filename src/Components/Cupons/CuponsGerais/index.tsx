@@ -15,19 +15,19 @@ import {
 import { CuponsGerais } from '../../../global/interface/inteface';
 
 
-export default function CuponsGerais({ image }: CuponsGerais) {
+export default function CuponsGerais({ image,porcentagem,TituleCupon,SubText }: CuponsGerais) {
   return (
       <Conteiner>
         <Image source={{ uri: image}}/>
         <ConteinerPorcentagenForCupon>
-          <TextPorcentagen>45%</TextPorcentagen>
+          <TextPorcentagen>{porcentagem}</TextPorcentagen>
           <TextRub>off!</TextRub>
         </ConteinerPorcentagenForCupon>
         <ConteinerButtomAndText>
-          <Text>Family Feast</Text>
+          <Text>{TituleCupon}</Text>
           <ConteinerAboutSubText>
-            <TextSub>Special price on our</TextSub>
-            <TextSub>family meal bundle!</TextSub>
+            <TextSub>{SubText}</TextSub>
+            <TextSub>{SubText}</TextSub>
           </ConteinerAboutSubText>
             <TextButtom>     J15G250</TextButtom>
         </ConteinerButtomAndText>

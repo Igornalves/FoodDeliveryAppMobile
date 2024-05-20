@@ -6,11 +6,10 @@ import {
     TextSecundary,
     ConteinerProductsList
 } from './style';
-import { ListProductsScollView } from '../ListProduct/ListProduct';
-import TypeProduct from './TypeProduct';
+import TypeProductBestsellers from './TypeProductBestsellers';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
-export default function Products() {
+export default function Bestsellers() {
   return (
     <Conteiner>
       <ConteinerTop>
@@ -20,7 +19,7 @@ export default function Products() {
         </TouchableOpacity>
       </ConteinerTop>
       <ConteinerProductsList>
-        <TypeProduct 
+        <TypeProductBestsellers 
         TituleI='Bacon Bliss Bomb...' 
         TextI='30 min' 
         TextFeedI='1.2k' 
@@ -28,7 +27,7 @@ export default function Products() {
         // DiscontI='10%off' 
         imageI='https://img.freepik.com/fotos-premium/hamburger-delicioso_62847-301.jpg?w=996'
         />
-        <TypeProduct 
+        <TypeProductBestsellers 
         TituleI='Bacon Bliss Bomb...' 
         TextI='15 min' 
         TextFeedI='1.8k' 
@@ -36,7 +35,7 @@ export default function Products() {
         DiscontI='10%off' 
         imageI='https://img.freepik.com/fotos-premium/frango-saltado-de-comida-peruana-batata-frita-frango-temperado-cebola-tomate-legumes-assados-arros-brancos-em-um-prato-branco_136753-116.jpg?w=826'
         />
-        <TypeProduct 
+        <TypeProductBestsellers 
         TituleI='Bacon Bliss Bomb...' 
         TextI='45 min' 
         TextFeedI='4.5k' 
@@ -44,7 +43,7 @@ export default function Products() {
         DiscontI='10%off' 
         imageI='https://img.freepik.com/fotos-gratis/pizza-havaiana_1203-2455.jpg?w=996&t=st=1716048672~exp=1716049272~hmac=626376497d319deac3f5baad2eb8ec0122cb8261ab157531c87924b6734eb029'
         />
-        <TypeProduct 
+        <TypeProductBestsellers 
         TituleI='Bacon Bliss Bomb...' 
         TextI='35 min' 
         TextFeedI='2.7k' 

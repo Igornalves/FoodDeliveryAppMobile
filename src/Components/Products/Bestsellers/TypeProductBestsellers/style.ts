@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import theme from '../../../global/style/theme';
+import theme from '../../../../global/style/theme';
 import AntDesign from '@expo/vector-icons/AntDesign';
 
 export const Conteiner = styled.View`
@@ -68,6 +68,11 @@ export const IconAdd = styled(MaterialIcons)`
     margin-right: 10px;
 `;
   
+export const IconFeed = styled(SimpleLineIcons)`
+    font-size: 14.5px;
+    color: ${theme.colors.DarkGray};
+`;
+
 export const Text = styled.Text`
     color: ${theme.colors.DarkGray};
 `;
@@ -80,11 +85,6 @@ export const Bar = styled.Text`
     color: ${theme.colors.DarkGray};
 `;
  
-export const IconFeed = styled(SimpleLineIcons)`
-    font-size: 14.5px;
-    color: ${theme.colors.DarkGray};
-`;
-
 export const Pay = styled.Text`
 
 `;
@@ -94,6 +94,4 @@ export const Discont = styled.Text`
     margin-right: 40px;
     color: ${theme.colors.DarkGray};
 `;
-
-
   

@@ -3,7 +3,7 @@ export interface icon{
     date: number
 }
 
-export interface TypeProducts{
+export interface TypeProductBestseller{
     TituleI: string,
     TextI: string,
     TextFeedI: string,
@@ -13,5 +13,8 @@ export interface TypeProducts{
 }
 
 export interface CuponsGerais{
-    image: string
+    image: string,
+    porcentagem: string,
+    TituleCupon: string,
+    SubText: string
 }

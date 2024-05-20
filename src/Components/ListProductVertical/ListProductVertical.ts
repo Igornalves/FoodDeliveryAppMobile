@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 
-export const ListProductsScollView = styled.ScrollView.attrs({
+export const ListProductsVerticalScollView = styled.ScrollView.attrs({
     vertical: true,
     showsVerticalScrollIndicator: false,
 })`

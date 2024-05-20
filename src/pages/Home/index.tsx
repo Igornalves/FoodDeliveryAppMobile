@@ -9,9 +9,10 @@ import Searchbar from '../../Components/Searchbar';
 import FilterButton from '../../Components/FilterButton';
 import OurMenu from '../../Components/OurMenu';
 import ActionBox from '../../Components/ActionBox';
-import Products from '../../Components/Products';
-import { ListProductsScollView } from '../../Components/ListProduct/ListProduct';
+import Bestsellers from '../../Components/Products/Bestsellers';
+import { ListProductsVerticalScollView } from '../../Components/ListProductVertical/ListProductVertical';
 import CuponsMain from '../../Components/Cupons';
+import Restaurants from '../../Components/Products/RestaurantNearby';
 
 export default function Home(props) {
   return (
@@ -23,12 +24,13 @@ export default function Home(props) {
         <Searchbar/>
         <FilterButton/>
       </ConteinerSearchAndFilter>
-      <ListProductsScollView>
+      <ListProductsVerticalScollView>
         <OurMenu/>
         <ActionBox/>
-        <Products/>
+        <Bestsellers/>
         <CuponsMain/>
-      </ListProductsScollView>
+        <Restaurants/>
+      </ListProductsVerticalScollView>
     </Conteiner>
   );
 }
