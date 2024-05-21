@@ -18,3 +18,14 @@ export interface CuponsGerais{
     TituleCupon: string,
     SubText: string
 }
+
+export interface typeProductsOders {
+    images: string,
+    TextTitule1: string,
+    TextTitule2: string,
+    DateO: string,
+    ItensO: string,
+    DeliveredO?: string,
+    PayO: string,
+    IdOrderO: string
+  }

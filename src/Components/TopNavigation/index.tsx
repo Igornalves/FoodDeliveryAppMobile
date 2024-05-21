@@ -9,16 +9,12 @@ import {
     IconChevron 
 } from './style';
 import { TouchableOpacity } from 'react-native';
-import { pressButton } from '../../global/other/objects';
+import { pressButtonOpen } from '../../global/other/objects';
 
 export default function TopNavigation( props ) {
-
-    // const pressButton = () => {
-    //     props.navigation.dispatch(DrawerActions.openDrawer());
-    // };
     
     function activeButton(){
-        pressButton(props)
+        pressButtonOpen(props)
     } 
 
     return (

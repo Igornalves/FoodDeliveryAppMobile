@@ -21,6 +21,10 @@ export default function Stack(){
             name='StartScreen'
             component={DrawerRoutes}
             />
+            <NativeStack.Screen
+            name='Home'
+            component={DrawerRoutes}
+            />
         </NativeStack.Navigator>
     );
 }

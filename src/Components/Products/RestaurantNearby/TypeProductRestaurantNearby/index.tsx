@@ -12,6 +12,10 @@ import {
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
+interface TypeRestaurantNeabyProducts{
+
+}
+
 export default function TypeProductRestaurantNearby() {
   return (
     <TouchableOpacity activeOpacity={0.2}>
