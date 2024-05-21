@@ -9,12 +9,6 @@ export const Conteiner = styled.View`
     background-color: ${theme.colors.Light};
 `;
 
-export const ConteinerSearchAndFilter = styled.View`
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 10px;
-`;
-
 export const ConteinerTopNavigation = styled.View`
     align-items: center;
     margin-top: 10px;

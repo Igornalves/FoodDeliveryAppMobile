@@ -1,15 +1,13 @@
 import React from 'react';
-import { 
-    Conteiner,
-    TextInput,
-    Icon
-} from './style';
+import { ConteinerSearchAndFilter } from './style';
+import FilterButton from './FilterButton';
+import SearchButton from './SearchButton';
 
-export default function Searchbar() {
+export default function SearchBar() {
   return (
-    <Conteiner>
-      <Icon name='search'/>
-      <TextInput placeholder='Search your food'/>
-    </Conteiner>
+    <ConteinerSearchAndFilter>
+        <SearchButton/>
+        <FilterButton/>
+    </ConteinerSearchAndFilter>
   );
 }

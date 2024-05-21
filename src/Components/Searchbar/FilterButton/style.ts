@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
-import theme from '../../global/style/theme';
+import theme from '../../../global/style/theme';
 
 export const Conteiner = styled.View`
     background-color: ${theme.colors.White};
@@ -9,7 +9,6 @@ export const Conteiner = styled.View`
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    margin-top: 20px;
     margin-left: 16px;
 `;
 

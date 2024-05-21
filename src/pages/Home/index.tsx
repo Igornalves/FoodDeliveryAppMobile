@@ -2,17 +2,15 @@ import React from 'react';
 import { 
     Conteiner,
     ConteinerTopNavigation,
-    ConteinerSearchAndFilter
 } from './style';
 import TopNavigation from '../../Components/TopNavigation';
-import Searchbar from '../../Components/Searchbar';
-import FilterButton from '../../Components/FilterButton';
 import OurMenu from '../../Components/OurMenu';
 import ActionBox from '../../Components/ActionBox';
 import Bestsellers from '../../Components/Products/Bestsellers';
 import { ListProductsVerticalScollView } from '../../Components/ListProductVertical/ListProductVertical';
 import CuponsMain from '../../Components/Cupons';
 import Restaurants from '../../Components/Products/RestaurantNearby';
+import SearchBar from '../../Components/Searchbar';
 
 export default function Home(props) {
   return (
@@ -20,10 +18,7 @@ export default function Home(props) {
       <ConteinerTopNavigation>
         <TopNavigation {...props}/>
       </ConteinerTopNavigation>
-      <ConteinerSearchAndFilter>
-        <Searchbar/>
-        <FilterButton/>
-      </ConteinerSearchAndFilter>
+      <SearchBar/>
       <ListProductsVerticalScollView>
         <OurMenu/>
         <ActionBox/>
