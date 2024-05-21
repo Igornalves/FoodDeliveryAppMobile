@@ -28,4 +28,17 @@ export interface typeProductsOders {
     DeliveredO?: string,
     PayO: string,
     IdOrderO: string
-  }
+}
+
+export interface TypeRestaurantNeabyProducts{
+    imagesR: string,
+    TextTituleR: string,
+    TextIconLocationR: string,
+    TextIconFeedR: string
+    mostraDesconto?: boolean
+}
+
+export interface TopForPageTypes {
+    TituleT: string,
+    IconAccountT: string
+}

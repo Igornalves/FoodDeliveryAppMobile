@@ -58,3 +58,25 @@ export const TextIconFeed = styled.Text`
     font-size: 12px;
 `;
 
+export const ConteinerDiscountWithPay = styled.View`
+    position: absolute;
+    top: 15px;
+    left: 12px;
+`;
+
+export const TextDiscount = styled.Text`
+    color: ${theme.colors.White};
+    font-family: ${theme.fonts.HeadingH2};
+    font-size: 20px;
+`;
+
+export const ConteinerPay = styled.View`
+    background-color: ${theme.colors.White};
+    border-radius: 5px;
+    align-items: center;
+`;
+
+export const TextPay = styled.Text`
+    font-size: 10px;
+    font-family: ${theme.fonts.Body};
+`;

@@ -9,7 +9,7 @@ import {
     IconChevron 
 } from './style';
 import { TouchableOpacity } from 'react-native';
-import { pressButtonOpen } from '../../global/other/objects';
+import { goForScreen, pressButtonOpen } from '../../global/other/objects';
 
 export default function TopNavigation( props ) {
     
@@ -17,12 +17,16 @@ export default function TopNavigation( props ) {
         pressButtonOpen(props)
     } 
 
+    function onPressGoForPage() {
+        goForScreen(props)
+    }
+
     return (
         <Conteiner>
             <TouchableOpacity activeOpacity={0.4} onPress={activeButton}> 
                 <MenuIcon name={'menu-outline'}/> 
             </TouchableOpacity> 
-            <TouchableOpacity activeOpacity={0.3}>
+            <TouchableOpacity activeOpacity={0.3} onPress={onPressGoForPage}>
                 <ConteinerText>
                     <IconLocation name='location-pin'/>
                     <Text>Rivertown Haven</Text>

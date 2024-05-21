@@ -25,3 +25,7 @@ export const pressButtonOpen = (props) => {
 export const goBackScreen = (props) => {
     props.navigation.navigate('Home');
 };
+
+export const goForScreen = (props) => {
+    props.navigation.navigate('Locetion');
+};

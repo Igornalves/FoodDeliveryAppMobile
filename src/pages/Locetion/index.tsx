@@ -1,13 +1,14 @@
 import React from 'react';
 import { 
   Conteiner,
-  Text
 } from './style';
+import TopNavigationForPages from '../../Components/TopNavigationForPages';
+
 
 export default function Locetion(props) {
   return (
     <Conteiner>
-       <Text> Ola Yasmin tudo bem ! ! !</Text>
+      <TopNavigationForPages TituleT='Tracking    ' IconAccountT='account-outline' {...props}/>
     </Conteiner>
   );
 }

@@ -3,6 +3,7 @@ import React from 'react'
 import OnboardingScreens from '../pages/OnboardingScreens';
 import DrawerRoutes from './drawer.routes';
 import Welcome from '../pages/OnboardingScreens/Welcome';
+import TopNavigation from '../Components/TopNavigation';
 
 const NativeStack = createNativeStackNavigator();
   
@@ -22,8 +23,12 @@ export default function Stack(){
             component={DrawerRoutes}
             />
             <NativeStack.Screen
-            name='Home'
+            name='HomeT'
             component={DrawerRoutes}
+            />
+            <NativeStack.Screen
+            name='Locetion'
+            component={TopNavigation}
             />
         </NativeStack.Navigator>
     );

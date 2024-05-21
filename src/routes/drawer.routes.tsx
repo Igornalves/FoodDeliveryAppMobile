@@ -10,8 +10,7 @@ import Settings from '../pages/Settings';
 import Account from '../pages/Account';
 import Order from '../pages/Order';
 import theme from '../global/style/theme';
-import Stack from './stack.routes';
-import OnboardingScreens from '../pages/OnboardingScreens';
+import Locetion from '../pages/Locetion';
 
 export const Drawer = createDrawerNavigator()
 
@@ -28,7 +27,7 @@ export default function DrawerRoutes(){
         initialRouteName=''
         >
             <Drawer.Screen
-                name='Payment-Methods-Drawer'
+                name='Home-Drawer'
                 component={TabRoutes}
                 options={{
                     drawerIcon: ({size,color}) => <Ionicons name='wallet-outline' color={color} size={size}/>,
@@ -37,7 +36,7 @@ export default function DrawerRoutes(){
             />
             <Drawer.Screen
                 name='Rewards-and-Offers-Drawer'
-                component={TabRoutes}
+                component={Locetion}
                 options={{
                     drawerIcon: ({size,color}) => <SimpleLineIcons name='present' color={color} size={size}/>,
                     drawerLabel:'Rewards and Offers'
