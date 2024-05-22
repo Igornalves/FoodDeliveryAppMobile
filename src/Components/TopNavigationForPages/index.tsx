@@ -5,7 +5,7 @@ import {
     IconBack, 
     Titule 
 } from './style';
-import { goBackScreen } from '../../global/other/objects';
+import { goBackScreen, goForScreenAccount } from '../../global/other/objects';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { TopForPageTypes } from '../../global/interface/inteface';
 
@@ -15,13 +15,17 @@ export default function TopNavigationForPages({ TituleT, IconAccountT, ...props 
         goBackScreen(props)
     }
 
+    function onPressAccount() {
+        goForScreenAccount(props)
+    }
+
     return (
         <ConteinerTop>
             <TouchableOpacity activeOpacity={0.2} onPress={onPressBack}>
                 <IconBack name='arrow-left'/>
             </TouchableOpacity>
             <Titule>{TituleT}</Titule>
-            <TouchableOpacity activeOpacity={0.2}>
+            <TouchableOpacity activeOpacity={0.2} onPress={onPressAccount}>
                 <IconAccount name={IconAccountT}/>
             </TouchableOpacity>
         </ConteinerTop>

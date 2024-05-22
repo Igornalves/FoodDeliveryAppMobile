@@ -12,7 +12,7 @@ export interface TypeProductBestseller{
     imageI?: string
 }
 
-export interface CuponsGerais{
+export interface CuponsGeraisType{
     image: string,
     porcentagem: string,
     TituleCupon: string,
@@ -40,5 +40,13 @@ export interface TypeRestaurantNeabyProducts{
 
 export interface TopForPageTypes {
     TituleT: string,
-    IconAccountT: string
+    IconAccountT?: string
+}
+
+export interface PopNotificationType {
+    ImageP: string,
+    tituleP: string,
+    subTxt1: string,
+    subTxt2: string,
+    timeP: string
 }

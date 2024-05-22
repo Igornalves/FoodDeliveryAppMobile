@@ -29,3 +29,11 @@ export const goBackScreen = (props) => {
 export const goForScreen = (props) => {
     props.navigation.navigate('Locetion');
 };
+
+export const goForScreenAccount = (props) => {
+    props.navigation.navigate('account-Drawer');
+};
+
+// export const goForScreenBest = (props) => {
+//     props.navigation.navigate('BestOffers');
+// };

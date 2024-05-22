@@ -6,6 +6,8 @@ import {
 } from './style';
 import TopNavigationForPages from '../../Components/TopNavigationForPages';
 import LocationPoint from '../../Components/LocationPoint';
+import MapaLocation from '../../Components/LocationPoint/MapaLocation';
+import OrderStatus from '../../Components/LocationPoint/OrderStatus';
 
 
 export default function Locetion(props) {
@@ -16,6 +18,8 @@ export default function Locetion(props) {
         <Text>Delivery Address</Text>
         <LocationPoint/>
       </ConteinerDeliveryAddress>
+      <MapaLocation/>
+      <OrderStatus/>
     </Conteiner>
   );
 }

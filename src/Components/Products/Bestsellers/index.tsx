@@ -9,7 +9,7 @@ import {
 import TypeProductBestsellers from './TypeProductBestsellers';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
-export default function Bestsellers() {
+export default function Bestsellers(props) {
   return (
     <Conteiner>
       <ConteinerTop>

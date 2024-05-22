@@ -4,7 +4,8 @@ import {
     ConteinerIconPoint,
     Icon,
     TextOne,
-    TextTwo
+    TextTwo,
+    ConteinerTexts
 } from './style';
 
 export default function LocationPoint() {
@@ -13,8 +14,10 @@ export default function LocationPoint() {
         <ConteinerIconPoint>
             <Icon name='location-on'/>
         </ConteinerIconPoint>
-        <TextOne>123 Main Street</TextOne>
-        <TextTwo>Cityville</TextTwo>
+        <ConteinerTexts>
+          <TextOne>123 Main Street</TextOne>
+          <TextTwo>Cityville</TextTwo>
+        </ConteinerTexts>
     </Conteiner>
   );
 }

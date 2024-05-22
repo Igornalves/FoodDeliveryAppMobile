@@ -30,6 +30,10 @@ export default function Stack(){
             name='Locetion'
             component={TopNavigation}
             />
+            <NativeStack.Screen
+            name='accountA'
+            component={DrawerRoutes}
+            />
         </NativeStack.Navigator>
     );
 }

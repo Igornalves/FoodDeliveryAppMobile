@@ -5,17 +5,16 @@ import {
   ConteinerButtomAndText,
   Text,
   TextSub,
-  TouchableOpacity,
   TextButtom,
   ConteinerAboutSubText,
   ConteinerPorcentagenForCupon,
   TextPorcentagen,
   TextRub
-} from '../style';
-import { CuponsGerais } from '../../../global/interface/inteface';
+} from './style';
+import { CuponsGeraisType } from '../../../global/interface/inteface';
 
 
-export default function CuponsGerais({ image,porcentagem,TituleCupon,SubText }: CuponsGerais) {
+export default function CuponsGerais({ image,porcentagem,TituleCupon,SubText }: CuponsGeraisType) {
   return (
       <Conteiner>
         <Image source={{ uri: image}}/>
@@ -27,7 +26,7 @@ export default function CuponsGerais({ image,porcentagem,TituleCupon,SubText }: 
           <Text>{TituleCupon}</Text>
           <ConteinerAboutSubText>
             <TextSub>{SubText}</TextSub>
-            <TextSub>{SubText}</TextSub>
+            {/* <TextSub>{SubText}</TextSub> */}
           </ConteinerAboutSubText>
             <TextButtom>     J15G250</TextButtom>
         </ConteinerButtomAndText>
