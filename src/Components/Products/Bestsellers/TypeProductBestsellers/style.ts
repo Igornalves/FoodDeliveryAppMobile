@@ -94,4 +94,3 @@ export const Discont = styled.Text`
     margin-right: 40px;
     color: ${theme.colors.DarkGray};
 `;
-  

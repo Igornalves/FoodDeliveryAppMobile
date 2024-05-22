@@ -14,7 +14,7 @@ import {
   ConteinerPayWithDiscount,
   ConteinerImageAndIconLike,
   IconAdd,
-  IconLike
+  IconLike,
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { TypeProductBestseller } from '../../../../global/interface/inteface';
