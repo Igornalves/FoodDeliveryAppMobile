@@ -34,6 +34,14 @@ export const goForScreenAccount = (props) => {
     props.navigation.navigate('account-Drawer');
 };
 
+export const goForScreenStrap2 = (props) => {
+    props.navigation.navigate('Stap2');
+};
+
+export const goForScreenStrap3 = (props) => {
+    props.navigation.navigate('Stap3');
+};
+
 // export const goForScreenBest = (props) => {
 //     props.navigation.navigate('BestOffers');
 // };

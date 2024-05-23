@@ -10,7 +10,7 @@ export default function Slidebar(props) {
         <User {...props}/>
       <DrawerItemList {...props}/>
       <ConteinerButtom>
-          <Logout/>
+        <Logout/>
       </ConteinerButtom>
     </DrawerContentScrollView>
   );

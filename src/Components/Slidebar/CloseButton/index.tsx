@@ -4,7 +4,6 @@ import {
     ButtonClose
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import { DrawerActions} from '@react-navigation/native';
 import { pressButtonClose } from '../../../global/other/objects';
 
 export default function CloseButton(props) {
@@ -14,7 +13,7 @@ export default function CloseButton(props) {
   }
 
   return (
-    <TouchableOpacity activeOpacity={0.12} onPress={closeDrawer}>
+    <TouchableOpacity activeOpacity={0.2} onPress={closeDrawer}>
         <Conteiner>
             <ButtonClose name={'closecircleo'}/>
         </Conteiner>

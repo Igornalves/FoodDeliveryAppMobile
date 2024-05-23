@@ -50,3 +50,9 @@ export interface PopNotificationType {
     subTxt2: string,
     timeP: string
 }
+
+export interface TypeStrapComponent{
+    TituleS: string,
+    TextPrimaryS: string,
+    TextSecundaryS: string
+}
