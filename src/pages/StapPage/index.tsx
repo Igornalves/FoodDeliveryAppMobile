@@ -11,9 +11,9 @@ export default function StapPage(props) {
     <Conteiner>
         <Image source={require('../../global/images/Family.png')}/> 
       <StapComponent 
+        TituleS='Explore Restaurants'
         TextPrimaryS='Discover a world of delightful flavors'
         TextSecundaryS='at your fingertips'
-        TituleS='Explore Restaurants'
       />
       <StapButtom {...props}/> 
     </Conteiner>

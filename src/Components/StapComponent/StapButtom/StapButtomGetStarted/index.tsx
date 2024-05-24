@@ -4,17 +4,17 @@ import {
   Text
 } from '../style';
 import { GestureHandlerRootView, TouchableOpacity } from 'react-native-gesture-handler';
-import { goForScreenStrap3 } from '../../../../global/other/objects';
+import { goForScreenGetStarted } from '../../../../global/other/objects';
 
 export default function StapButtomGetStarted(props) {
 
-  function onPressStrap2() {
-    goForScreenStrap3(props)
+  function onPressStrapGetStart() {
+    goForScreenGetStarted(props)
   }
 
   return (
     <GestureHandlerRootView>
-      <TouchableOpacity activeOpacity={0.2} onPress={onPressStrap2}> 
+      <TouchableOpacity activeOpacity={0.2} onPress={onPressStrapGetStart}> 
         <ConteinerButtom>
           <Text>Get Started</Text>
         </ConteinerButtom>

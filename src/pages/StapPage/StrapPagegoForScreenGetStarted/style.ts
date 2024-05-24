@@ -8,7 +8,7 @@ export const Conteiner = styled.View`
 `;
 
 export const Image = styled.Image`
-    width: ${RFValue(119)}px;
+    width: ${RFValue(209)}px;
     height: ${RFValue(210)}px;
     margin-top: ${RFValue(210)}px;
 `;

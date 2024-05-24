@@ -6,14 +6,14 @@ import {
 import StapComponent from '../../../Components/StapComponent';
 import StapButtomGetStarted from '../../../Components/StapComponent/StapButtom/StapButtomGetStarted';
 
-export default function StrapPage3(props) {
+export default function StrapPagegoForScreenGetStarted(props) {
   return (
     <Conteiner>
-        <Image source={require('../../../global/images/Strap2.png')}/> 
+        <Image source={require('../../../global/images/entregador.png')}/> 
         <StapComponent 
+            TituleS='Fast delivery'
             TextPrimaryS='Browse menus, customize your'
             TextSecundaryS='order, and enjoy hassle-free delivery'
-            TituleS='Fast delivery'
         />
         <StapButtomGetStarted {...props}/> 
     </Conteiner>

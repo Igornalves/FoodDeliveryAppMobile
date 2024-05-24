@@ -20,7 +20,6 @@ export default function StapComponent({ TextPrimaryS, TextSecundaryS, TituleS }:
       // backgroundColor: 'red',
       // height: 280, 
       // paddingBottom: 70,
-
       opacity: interpolate(
         SplashAnimation.value, 
         [0, 25, 50], 
@@ -42,7 +41,7 @@ export default function StapComponent({ TextPrimaryS, TextSecundaryS, TituleS }:
   useEffect(() => {
     SplashAnimation.value = withTiming( 
       50, 
-      {duration: 2500},
+      {duration: 1000},
       () => {
         'worklet'
       }

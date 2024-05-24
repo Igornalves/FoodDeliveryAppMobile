@@ -11,9 +11,9 @@ export default function StrapPage2(props) {
     <Conteiner>
         <Image source={require('../../../global/images/Strap2.png')}/> 
         <StapComponent 
+            TituleS='Easy Ordering'
             TextPrimaryS='Browse menus, customize your'
             TextSecundaryS='order, and enjoy hassle-free delivery'
-            TituleS='Easy Ordering'
         />
         <StapButtom2 {...props}/> 
     </Conteiner>

@@ -39,7 +39,11 @@ export const goForScreenStrap2 = (props) => {
 };
 
 export const goForScreenStrap3 = (props) => {
-    props.navigation.navigate('Stap3');
+    props.navigation.navigate('StapGetStarted');
+};
+
+export const goForScreenGetStarted = (props) => {
+    props.navigation.navigate('StartScreen');
 };
 
 // export const goForScreenBest = (props) => {
