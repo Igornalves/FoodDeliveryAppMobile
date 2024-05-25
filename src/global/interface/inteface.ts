@@ -39,7 +39,7 @@ export interface TypeRestaurantNeabyProducts{
 }
 
 export interface TopForPageTypes {
-    TituleT: string,
+    TituleT?: string,
     IconAccountT?: string
 }
 

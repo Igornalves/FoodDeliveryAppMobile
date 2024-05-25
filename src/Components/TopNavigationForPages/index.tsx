@@ -5,7 +5,10 @@ import {
     IconBack, 
     Titule 
 } from './style';
-import { goBackScreen, goForScreenAccount } from '../../global/other/objects';
+import { 
+    goBackScreen, 
+    goForScreenAccount 
+} from '../../global/other/objects';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { TopForPageTypes } from '../../global/interface/inteface';
 

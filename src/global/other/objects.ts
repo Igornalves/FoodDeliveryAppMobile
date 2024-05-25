@@ -43,7 +43,11 @@ export const goForScreenStrap3 = (props) => {
 };
 
 export const goForScreenGetStarted = (props) => {
-    props.navigation.navigate('StartScreen');
+    props.navigation.navigate('WelcomeForLoginPage');
+};
+
+export const CreateLoginPageStart = (props) => {
+    props.navigation.navigate('CreateLoginPage');
 };
 
 // export const goForScreenBest = (props) => {
