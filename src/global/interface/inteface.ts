@@ -56,3 +56,8 @@ export interface TypeStrapComponent{
     TextPrimaryS: string,
     TextSecundaryS: string
 }
+
+export interface TypeDateCreateAccount{ 
+    IconC: string;
+    InputTextC: string;
+  }
