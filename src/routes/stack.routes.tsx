@@ -9,6 +9,7 @@ import StrapPage2 from '../pages/StapPage/StapPage2';
 import StrapPagegoForScreenGetStarted from '../pages/StapPage/StrapPagegoForScreenGetStarted';
 import WelcomePageForLogin from '../pages/LoginPage/WelcomePageForLogin';
 import CreateLoginPage from '../pages/LoginPage/CreateLoginPage';
+import LoginPage from '../pages/LoginPage';
 
 const NativeStack = createNativeStackNavigator();
   
@@ -42,6 +43,10 @@ export default function Stack(){
             <NativeStack.Screen
             name='CreateLoginPage'
             component={CreateLoginPage}
+            />
+            <NativeStack.Screen
+            name='ContinueLoginPage'
+            component={LoginPage}
             />
             <NativeStack.Screen
             name='StartScreen'

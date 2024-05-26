@@ -10,7 +10,7 @@ export const Conteiner = styled.View`
 
 export const ConteinerIconAndText = styled.View`
     align-items: center;
-    margin-top: ${RFValue(90)}px;
+    margin-top: ${RFValue(75)}px;
     margin-bottom: ${RFValue(19)}px;
 `;
 

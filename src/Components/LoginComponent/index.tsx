@@ -5,8 +5,8 @@ import {
     ConteinerButtom
 } from './style';
 import ButtomForOtherAccounts from './ButtomForOtherAccounts';
-import ButtomForCreateYourAcconts from './ButtomForCreateYourAcconts';
 import ButtomSign from './ButtomSign';
+import ButtomForContinueYourAcconts from './ButtomForContinueYourAcconts';
 
 export default function LoginComponent(props) {
   return (
@@ -19,9 +19,9 @@ export default function LoginComponent(props) {
             imageO='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/apple-icon.png'
             textO='Continue with Apple ID'
         />
-        <ButtomForCreateYourAcconts {...props}/>
+        <ButtomForContinueYourAcconts {...props}/>
         <ConteinerButtom>
-            <TextButtom>Dont have an acount ? </TextButtom>
+            <TextButtom>Don't have an account ? </TextButtom>
             <ButtomSign {...props}/>
         </ConteinerButtom>
     </Conteiner>

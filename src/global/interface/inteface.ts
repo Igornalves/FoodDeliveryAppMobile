@@ -61,3 +61,9 @@ export interface TypeDateCreateAccount{
     IconC: string;
     InputTextC: string;
   }
+
+  export interface typeTextBox{
+    TextBox: string
+    MostraTextoSecudario?: boolean
+}
+

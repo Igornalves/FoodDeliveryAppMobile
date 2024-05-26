@@ -2,10 +2,14 @@ import React from 'react';
 import BouncyCheckbox from "react-native-bouncy-checkbox";
 import { 
     Conteiner,
-    Text
+    Text,
+    TextSub,
+    ConteinerTexts
 } from './style';
+import { typeTextBox } from '../../../global/interface/inteface';
+import { GestureHandlerRootView, TouchableOpacity } from 'react-native-gesture-handler';
 
-export default function CheckBoxForLogin() {
+export default function CheckBoxForLogin({ TextBox ,MostraTextoSecudario ,...props }: typeTextBox) {
     return (
         <Conteiner>
             <BouncyCheckbox 
@@ -25,7 +29,14 @@ export default function CheckBoxForLogin() {
                 fillColor="black"
                 onPress={(isChecked: boolean) => {console.log(isChecked)}}
             />
-            <Text>Remeber me</Text>
+            <GestureHandlerRootView>
+                <TouchableOpacity activeOpacity={0.2}>
+                    <ConteinerTexts>
+                        <Text>{TextBox}</Text>
+                        {MostraTextoSecudario === true? <TextSub>and terms</TextSub> : null}
+                    </ConteinerTexts>
+                </TouchableOpacity>
+            </GestureHandlerRootView>
         </Conteiner>
     );
 }

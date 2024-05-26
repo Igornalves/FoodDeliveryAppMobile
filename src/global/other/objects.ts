@@ -50,6 +50,10 @@ export const CreateLoginPageStart = (props) => {
     props.navigation.navigate('CreateLoginPage');
 };
 
+export const ContinueLoginPageStart = (props) => {
+    props.navigation.navigate('ContinueLoginPage');
+};
+
 // export const goForScreenBest = (props) => {
 //     props.navigation.navigate('BestOffers');
 // };

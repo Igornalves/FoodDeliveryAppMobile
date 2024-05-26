@@ -7,7 +7,7 @@ import {
   Image
 } from './style';
 import LoginComponent from '../../../Components/LoginComponent';
-import ButtomForCreateYourAcconts from '../../../Components/LoginComponent/ButtomForCreateYourAcconts';
+import ButtomForCreateYourAcconts from '../../../Components/LoginComponent/ButtomForContinueYourAcconts';
 
 export default function WelcomePageForLogin(props) {
   return (

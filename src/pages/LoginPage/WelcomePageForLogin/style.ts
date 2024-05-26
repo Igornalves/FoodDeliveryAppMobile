@@ -28,6 +28,6 @@ export const SubText = styled.Text`
 export const Image = styled.Image`
     width: ${RFValue(207)}px;
     height: ${RFValue(220)}px;
-    margin-top: ${RFValue(120)}px;
+    margin-top: ${RFValue(100)}px;
     margin-bottom: ${RFValue(70)}px;
 `;  

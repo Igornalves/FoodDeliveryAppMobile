@@ -9,10 +9,6 @@ import {
     TextIconLocation,
     IconFeed,
     TextIconFeed,
-    ConteinerDiscountWithPay,
-    TextDiscount,
-    ConteinerPay,
-    TextPay
 } from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { TypeRestaurantNeabyProducts } from '../../../../global/interface/inteface';

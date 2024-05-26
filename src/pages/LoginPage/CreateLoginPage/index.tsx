@@ -22,7 +22,7 @@ export default function CreateLoginPage(props) {
           </ConteinerIconAndText>
           <FormularioLogin
             IconC='phone'
-            InputTextC='Number'
+            InputTextC='Phone Number'
             {...props}
           />
           <FormularioLogin
@@ -32,10 +32,19 @@ export default function CreateLoginPage(props) {
           />
           <FormularioLogin
             IconC='account'
-            InputTextC='Name'
+            InputTextC='Full Name'
             {...props}
           />
-          <CheckBoxForLogin/>
+          <FormularioLogin
+            IconC='key'
+            InputTextC='Password'
+            {...props}
+          />
+          <CheckBoxForLogin
+            TextBox='I accept all the privacy policy'
+            MostraTextoSecudario= {true}
+            {...props}
+          />
           <ButtomSignFormulario {...props}/>
         </ListProductsVerticalScollView>
     </Conteiner>

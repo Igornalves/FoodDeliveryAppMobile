@@ -9,7 +9,7 @@ export const ConteinerButtom = styled.View`
     width: ${RFValue(300)}px;
     /* margin-top: ${RFValue(205)}px; */
     height: ${RFValue(40)}px;
-    margin-top: ${RFValue(18)}px;
+    margin-top: ${RFValue(20)}px;
     margin-bottom: ${RFValue(40)}px;
     border-radius: ${RFValue(20)}px;
 `;  

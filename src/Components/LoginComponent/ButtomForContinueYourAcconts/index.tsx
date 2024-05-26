@@ -9,17 +9,17 @@ import {
     GestureHandlerRootView, 
     TouchableOpacity 
 } from 'react-native-gesture-handler';
-import { CreateLoginPageStart } from '../../../global/other/objects';
+import { ContinueLoginPageStart } from '../../../global/other/objects';
 
-export default function ButtomForCreateYourAcconts(props) {
+export default function ButtomForContinueYourAcconts(props) {
 
-    function onPressCreateLogin() {
-        CreateLoginPageStart(props)
-    }
+  function onPressContinueLogin() {
+    ContinueLoginPageStart(props)
+  }
 
   return (
     <GestureHandlerRootView>
-      <TouchableOpacity activeOpacity={0.2} onPress={onPressCreateLogin}> 
+      <TouchableOpacity activeOpacity={0.2} onPress={onPressContinueLogin}> 
         <ConteinerButtom>
           <Text>sign with email or phone</Text>
         </ConteinerButtom>
