@@ -54,6 +54,14 @@ export const ContinueLoginPageStart = (props) => {
     props.navigation.navigate('ContinueLoginPage');
 };
 
+export const StartAppScreen = (props) => {
+    props.navigation.navigate('StartScreen');
+};
+
+export const BackLogin = (props) => {
+    props.navigation.navigate('WelcomeForLoginPage');
+};
+
 // export const goForScreenBest = (props) => {
 //     props.navigation.navigate('BestOffers');
 // };
