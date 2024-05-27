@@ -8,7 +8,7 @@ import {
     TouchableOpacity 
 } from 'react-native-gesture-handler';
 
-export default function ButtomSignFormulario(props) {
+export default function ButtomSignUpFormulario(props) {
   return (
     <GestureHandlerRootView>
       <TouchableOpacity activeOpacity={0.2} > 

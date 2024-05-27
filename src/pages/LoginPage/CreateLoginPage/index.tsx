@@ -7,9 +7,9 @@ import {
 } from './style';
 import TopComponentLogin from '../../../Components/TopComponentLogin';
 import FormularioLogin from '../../../Components/LoginComponent/FormularioLogin';
-import ButtomSignFormulario from '../../../Components/LoginComponent/ButtomSignFormulario';
 import { ListProductsVerticalScollView } from '../../../Components/ListProductVertical/ListProductVertical';
 import CheckBoxForLogin from '../../../Components/LoginComponent/CheckBoxForLogin';
+import ButtomSignUpFormulario from '../../../Components/LoginComponent/ButtomSignUpFormulario';
 
 export default function CreateLoginPage(props) {
   return (
@@ -45,7 +45,7 @@ export default function CreateLoginPage(props) {
             MostraTextoSecudario= {true}
             {...props}
           />
-          <ButtomSignFormulario {...props}/>
+          <ButtomSignUpFormulario {...props}/>
         </ListProductsVerticalScollView>
     </Conteiner>
   );
