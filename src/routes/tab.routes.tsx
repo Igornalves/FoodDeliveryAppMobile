@@ -70,6 +70,7 @@ export default function TabRoutes() {
                             color={color}
                         />
                     ),
+                    tabBarBadge: 3
                 }}
             />
             <Screen 

@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import theme from '../../global/style/theme';
+import { RFValue } from 'react-native-responsive-fontsize';
 
 export const Conteiner = styled.View`
     margin-top: 13px;
@@ -7,7 +8,7 @@ export const Conteiner = styled.View`
     border-radius: 20px;
     width: 355px;
     height: 167px;
-    margin-right: 14px;
+    margin-left: ${RFValue(13)}px;
     background-color: ${theme.colors.White};
     flex-direction: row-reverse;
     /* background-color: blue; */
@@ -27,14 +28,14 @@ export const ConteinerAboutSubText = styled.View`
 `;
 
 export const ConteinerPorcentagenForCupon = styled.View`
-    width: 70px;
-    height: 70px;
+    width: ${RFValue(62)}px;
+    height: ${RFValue(62)}px;
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 15px;
-    top: 17px;
-    border-radius: 70px;
+    right: ${RFValue(14)}px; 
+    top: ${RFValue(17)}px;
+    border-radius: ${RFValue(70)}px;
     background-color: black;
 `;
 

@@ -1,12 +1,13 @@
 import styled from 'styled-components/native';
 import theme from '../../global/style/theme';
+import { RFValue } from 'react-native-responsive-fontsize';
 
 export const Conteiner = styled.View`
     margin-top: 13px;
     border-radius: 20px;
     width: 350px;
     height: 160px;
-    margin-right: 16px;
+    margin-left: ${RFValue(15)}px;
     background-color: ${theme.colors.White};
     flex-direction: row-reverse;
     /* background-color: blue; */
