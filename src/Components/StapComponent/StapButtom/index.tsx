@@ -14,7 +14,7 @@ export default function StapButtom(props) {
 
   return (
     <GestureHandlerRootView>
-      <TouchableOpacity activeOpacity={0.2} onPress={() => onPressStrap2}> 
+      <TouchableOpacity activeOpacity={0.2} onPress={onPressStrap2}> 
         <ConteinerButtom>
           <Text>Next</Text>
         </ConteinerButtom>

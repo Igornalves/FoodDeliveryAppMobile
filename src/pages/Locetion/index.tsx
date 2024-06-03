@@ -18,7 +18,7 @@ export default function Locetion(props) {
         <Text>Delivery Address</Text>
         <LocationPoint/>
       </ConteinerDeliveryAddress>
-      <MapaLocation/>
+      {/* <MapaLocation/> */}
       <OrderStatus/>
     </Conteiner>
   );
