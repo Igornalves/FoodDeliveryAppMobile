@@ -39,7 +39,7 @@ export default function Welcome() {
   const navigation = useNavigation();
 
   function StartApp(){
-    navigation.navigate('Stap');
+    navigation.navigate('StartScreen');
   }
   
   useEffect(() => {
