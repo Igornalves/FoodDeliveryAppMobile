@@ -29,14 +29,14 @@ Para esse projeto eu em especial prefirir usar um Design pronto no intuito de se
 <div style="display: inline_block" align="center">
 
 <h3>Telas inicial juntamente com a navegacao do app </h3>
-<img  alt="page-home" width="150" src="./src/global/images/Home.png">
-<img  alt="sideBar" width="150" src="./src/global/images/Sidebar.png">
+<img  alt="page-home" width="250" src="./src/global/images/Home.png">
+<img  alt="sideBar" width="250" src="./src/global/images/Sidebar.png">
 <br>
 
 <h3>Telas relacionada a pedidos do app restaurante </h3>
 
-<img  alt="orden-page" width="150" src="./src/global/images/Order page.png">
-<img  alt="React-Native" width="150" src="./src/global/images/Acompanhado pedido.png">
+<img  alt="orden-page" width="250" src="./src/global/images/Order page.png">
+<img  alt="React-Native" width="250" src="./src/global/images/Acompanhado pedido.png">
 
 </div>
 
