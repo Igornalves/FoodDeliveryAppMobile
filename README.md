@@ -38,6 +38,10 @@ Para esse projeto eu em especial prefirir usar um Design pronto no intuito de se
 
 <br>
 
+## Resultado final de como ficou a inteface funcionando:
+
+https://github.com/Igornalves/FoodDeliveryAppMobile/assets/134658180/93910f14-c63d-4ffb-9db0-e6ba37f5db54
+
 ## Formato de Navegacao usando no App criado
 
 <br>
@@ -58,8 +62,3 @@ Foi usando a biblioteca React Navigation que permitiu usar no projeto todos os t
 
 <br>
 Obs:. todos sao links clicaveis para documentacao oficial.
-
-## Resultado final de como ficou a inteface funcionando:
-
-https://github.com/Igornalves/FoodDeliveryAppMobile/assets/134658180/93910f14-c63d-4ffb-9db0-e6ba37f5db54
-
