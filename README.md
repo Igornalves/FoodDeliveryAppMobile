@@ -59,5 +59,5 @@ Foi usando a biblioteca React Navigation que permitiu usar no projeto todos os t
 <br>
 Obs:. todos sao links clicaveis para documentacao oficial.
 
-
+## Resultado final de como ficou a inteface funcionando:
 
