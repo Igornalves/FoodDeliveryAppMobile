@@ -62,3 +62,8 @@ Foi usando a biblioteca React Navigation que permitiu usar no projeto todos os t
 
 <br>
 Obs:. todos sao links clicaveis para documentacao oficial.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
